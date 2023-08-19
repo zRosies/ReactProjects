@@ -1,0 +1,99 @@
+.details{
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin-bottom: 100px;
+    /* box-shadow: 2px 2px 10px #fff; */
+    padding: 20px;
+}
+h2{
+    color: white;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.details img{
+    
+}
+
+.icons{
+    color: #ffee00;
+    font-size: 1.4em;
+    margin-right: 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+.FaStar{
+    text-align: center;
+}
+
+.tag{
+    text-align: center;
+}
+
+.cards{
+    margin: 0 auto;
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.des{
+    margin-top: 20px;
+}
+
+#dif{
+    display: flex;
+    background-color: #373131;
+    color: white !important;
+    /* padding: 20px; */
+    animation: loading 3s infinite;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 200rem;
+    box-shadow: 2px 2px 10px #fff;
+    margin-top: 100px;
+    /* width: 50px;
+    height: 50px; */
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+
+   
+    
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(360deg);
+    }
+    40% {
+        transform: rotate(720deg);
+    }
+    60% {
+        transform: rotate(1080deg);
+    }
+    80% {
+        transform: rotate(1440deg);
+    }
+    100% {
+        transform: rotate(1800deg);
+    }
+   
+}
+
+.heart{
+    margin-bottom: 20px;  
+}

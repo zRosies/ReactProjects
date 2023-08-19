@@ -1,0 +1,33 @@
+*{
+  font-family:Arial, Helvetica, sans-serif ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+}
+a{
+  text-decoration: none;
+  color: rgb(254, 254, 254);
+  transition: .3s ease-in-out;
+}
+a:hover{
+  color: rgb(236, 131, 131);
+  transition: .3s ease-in-out;
+}
+
+
+p{
+  color: #fff;
+}
+
+.title{
+  color: #fff;
+}
+
+
+
+
+

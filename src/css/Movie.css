@@ -1,0 +1,164 @@
+.h2{
+    text-align: center;
+    padding: 20px;
+    background-color: #e34444;
+    color: #fff;
+    width: 20%;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+#load{
+    background-color: #373131;
+    color: white !important;
+    padding: 20px;
+    border-radius: 20px;
+    animation: loading 3s infinite;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 200rem;
+
+   
+    
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(360deg);
+    }
+    40% {
+        transform: rotate(720deg);
+    }
+    60% {
+        transform: rotate(1080deg);
+    }
+    80% {
+        transform: rotate(1440deg);
+    }
+    100% {
+        transform: rotate(1800deg);
+    } 
+}
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    padding: 20px;
+    margin-bottom: 100px;
+   
+}
+
+.movies-container div{
+    margin: 1rem;
+   display: flex;
+   flex-direction: column;
+   background: #252424;
+   padding: 20px ;
+   box-shadow: 2px 2px 10px ;
+  }
+
+.FaStar{
+    color: #ffee00;
+}
+.cards{
+    max-width: 300px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap; */
+   
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cards a{
+    background: #e34444;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #e34444;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.heart{
+    text-align: center;
+}
+
+#heart{
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease-in-out;
+    font-size: .8em;
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px solid #373131;
+}
+
+#heart:hover{
+    color: #e34444;
+}
+
+.active{
+    color: #e34444;
+}
+
+.cards a:hover{
+    background: #060606;
+    color: #e34444;
+   
+}
+
+/* .ball{
+    border-radius: 50%;
+   padding: 8px;
+   height: 50;
+   width: 50;
+   text-align: center;
+   justify-self: center;
+   border: 2px solid #dcdcdc;
+   transition: .3s ease-in-out;
+   cursor: pointer;
+
+} */
+
+/* .ball:hover{
+    background: #e34444;
+} */
+
+.results{
+    color: #fff;
+    margin: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+svg{
+    /* margin-right: 5px; */
+}
+
+.new{
+    margin-right: 5px;
+}
+
+.span{
+    color: #ffee00;
+}
+  /* .cards img{
+    max-width: 200px;
+  } */
+
+@media screen and (max-width:800px) {
+    .h2{
+        width: 50%;
+    }   
+}
