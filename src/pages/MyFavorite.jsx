@@ -31,7 +31,7 @@ const Myfavorite = () => {
   };
 
   useEffect(() => {
-    // Retrieve favorite movies from localStorage
+    
     const storedFavorites = JSON.parse(localStorage.getItem("favoriteMovies")) || [];
     setFavoriteMovies(storedFavorites);
   }, [handleToggleFavorite]);

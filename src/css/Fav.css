@@ -2,7 +2,15 @@
     display: flex;
     flex-direction: column;
 } */
+.conditional{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+}
 
+.broken{
+    color: #e34444;
+}
 .titles{
     margin-top: 50px;
     text-align: center;
