@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 import React, { useEffect, useState } from "react";
-=======
+
 import React, { useEffect } from "react";
->>>>>>> ea326a9c1a2968616efc3c013b2fdacac4a29c20
+
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 import { BsFillSuitHeartFill, BsHeart } from "react-icons/bs";
@@ -30,7 +30,7 @@ const Cards = ({ movie, showLink = true }) => {
 
     const isFavoriteMovie = favoriteMovies.some((movie) => movie.id === movieData.id);
 
-<<<<<<< HEAD
+
     const updateFavoriteMovies = isFavoriteMovie
       ? favoriteMovies.filter((movie) => movie.id !== movieData.id)
       : [...favoriteMovies, movieData];
@@ -49,14 +49,14 @@ const Cards = ({ movie, showLink = true }) => {
     const storedData = localStorage.getItem("favoriteMovies");
     return storedData ? JSON.parse(storedData) : [];
   };
-=======
+
     const HandleFavorite = () => {
       toggleFavorite(movie.id); // Use toggleFavorite function here
     };
     useEffect(()=>{
 
     },[HandleClick])
->>>>>>> ea326a9c1a2968616efc3c013b2fdacac4a29c20
+
 
   return (
     <>
