@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 import "../css/navCss.css";
-=======
-import "./navCss.css";
->>>>>>> ea326a9c1a2968616efc3c013b2fdacac4a29c20
+
+
 
 const Footer = () => {
     const date = new Date();

@@ -2,7 +2,19 @@
     display: flex;
     flex-direction: column;
 } */
+.conditional{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20rem;
+}
 
+.broken{
+    color: #e34444;
+    padding: 15px;
+    /* background: #ffffff; */
+    border-radius: 50%;
+   
+}
 .titles{
     margin-top: 50px;
     text-align: center;
