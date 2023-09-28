@@ -42,7 +42,7 @@ const Cards = ({ movie, showLink = true }) => {
         {movie.poster_path ? (
           <img src={ImageUrl + movie.poster_path} alt={movie.title} />
         ) : (
-          <img src="https://lh3.googleusercontent.com/pw/..." alt={movie.title} />
+          <img src="https://lh3.googleusercontent.com/pw/ADCreHeP-xv_qladCLqYvWlYgvmnX2BSJs5PVPy7_55wpwvY_nP0FeS2P0zhLckeladAvzgF_ymu1fjyVtx44Ez9eNSPZij7lSEBBs5qjM-JwypSTtfqMo0DQgbnsBy3N6ZyBEIClM2SyMjOeVgydk9-Uh0Yy-IQOtcw-1in4b8LKvw9Q02Esk9T-KsmNjIiaHIGfZgUmQgZDZo17JYtOELfx_XrP4kDhN0uygW8hF6dqVMyw1DtpYtoYhikE5MPv80zKX5qvcA4ib0geOgilt7sBQ1420_aWT_2uRuG5TBfudKcPowj_PMch8vp5_QprDpgJ__ExP1UoyLkVRc1pKM_nzZCbxI-WT0IHQRKGx9BSmDUOU4jBoKoGGDY8VgOmEI2z2csrcaF4smg0QULfIgnFjazDZo_s5C7jdmbxF8_zzHVn6oOeKcPoHYsqzOKavaJW_uTI6iaH1n3C4YaMbnHuHIuHUs9ofiZnoi3XxsqpO6H9ONQKIzCAtZ6xcU3UrhoS8RxQqapdnN4WUnnyu9WIciIbYudBRK8pNhqslQDFWz2cq_Y59XsPUQVBPC7o5oOuqinCJsDUjyBR6BDC0Af_4u2y4A9E8mm9s5ytx3HNRpO2QVJb5q3o6ytZzat-NuJ6X-zKx2NiuqDRZw8y5xEnAfh70x7IiutMltTZ9gRc1gOCbwRkcqiDEtnMvB-0JHkFe-JzTjLdq6PSRmWvTL0pClJqstLvv1xF4tADZrAD7x0fuZQFzHeQtKqddXQklCg04KNIVezsDDh6ykteTgxiiv2-qwm9u1Vd2blC9VJ5wpT1Ookj5BA9cJSgXx65LMn0m5_0oqnL9Va_HPHeN50rgZBpOVcQwtyc-ndoExwIdRS5vkspzAlGfH0air4WHVIwrV35ZT3cacvFqUrh_nsR-ry78h2s3KvsDiMBwDit7yiLEf9pPRVcdq1cFeBH5WiWWXCYBQsoCyG8t4RJuMxGaJsskrl3pKEsKvp34O2kx_WSE4DHD5r8N3MQh049CPQPfM3wdo=w766-h943-s-no?authuser=0" alt={movie.title} />
         )}
 
         <h2 className="title">{movie.title}</h2>
